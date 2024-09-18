@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/Stylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="navbar-brand">
+                @*Append Image version to handle cache issue of img*@
+                <img src="~/img/logo.png" width="100px" asp-append-version="true" />
+            </div>
+            <ul>
+                <li>
+                    <a href="~/persons/index">Persons</a>
+                </li>
+                <li>
+                    <a asp-controller="Countries" asp-action="UploadFromExcel">Upload Countries</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="page-content">
+            @RenderBody()
+        </div>
+    </div>
+
+    @RenderSection("scripts", required: false);
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34902.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsManager.UI", "ContactsManager.UI\ContactsManager.UI.csproj", "{20850F74-9814-4C0E-B12E-1BD100325436}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D751F519-8E99-42D6-8FC0-4DB60D41C461}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1B75FB76-2608-46F6-8F3B-EC6F689B6C2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsManager.Core", "ContactsManager.Core\ContactsManager.Core.csproj", "{A9471C81-157F-471B-980F-4E58FF63E0BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManager.Infrastructure", "ContactsManager.Infrastructure\ContactsManager.Infrastructure.csproj", "{77E770EB-69AA-4C23-AE43-042F9BF8B8B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20850F74-9814-4C0E-B12E-1BD100325436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20850F74-9814-4C0E-B12E-1BD100325436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20850F74-9814-4C0E-B12E-1BD100325436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20850F74-9814-4C0E-B12E-1BD100325436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9471C81-157F-471B-980F-4E58FF63E0BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9471C81-157F-471B-980F-4E58FF63E0BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9471C81-157F-471B-980F-4E58FF63E0BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9471C81-157F-471B-980F-4E58FF63E0BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E770EB-69AA-4C23-AE43-042F9BF8B8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E770EB-69AA-4C23-AE43-042F9BF8B8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E770EB-69AA-4C23-AE43-042F9BF8B8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E770EB-69AA-4C23-AE43-042F9BF8B8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20850F74-9814-4C0E-B12E-1BD100325436} = {D751F519-8E99-42D6-8FC0-4DB60D41C461}
+		{A9471C81-157F-471B-980F-4E58FF63E0BB} = {D751F519-8E99-42D6-8FC0-4DB60D41C461}
+		{77E770EB-69AA-4C23-AE43-042F9BF8B8B8} = {D751F519-8E99-42D6-8FC0-4DB60D41C461}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BFAD4B1-50C3-4336-9CA9-98BB36ACAEB6}
+	EndGlobalSection
+EndGlobal
